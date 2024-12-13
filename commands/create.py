@@ -10,8 +10,9 @@ class CreateCommand(commands.Cog):
     @discord.app_commands.checks.has_permissions(administrator=True)
     async def create(self, interaction: discord.Interaction, ctf_name: str):
         guild = interaction.guild
-
-        role = await guild.create_role(name=ctf_name)
+        
+        blue_color = discord.Color(0x1E90FF) 
+        role = await guild.create_role(name=ctf_name, color=blue_color)
 
         category = await guild.create_category(ctf_name)
         overwrites_private = {
