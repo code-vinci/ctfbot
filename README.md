@@ -1,6 +1,6 @@
-# CTFBot
+# CodeVinciCTF
 
-CTFBot is a Discord bot designed to streamline the management of Capture the Flag (CTF) events within your team. From organizing challenges to managing roles and sharing updates, CTFBot has you covered.
+CodeVinciCTF is a Discord bot designed to streamline the management of Capture the Flag (CTF) events within your team. From organizing challenges to managing roles and sharing updates, CTFBot has you covered.
 
 ## Features
 
@@ -54,7 +54,7 @@ Invite the bot to your Discord server and use the configured prefix (default: `!
 
 - `/create <name>`: Add a new CTF challenge.
 - `/create_challenge`: Add new text channel to discuss about challenge.
-- `/flag`: Marks the challenge as solved with a 🚩 emoji..
+- `/flag`: Marks the challenge as solved with a 🚩 emoji.
 - `/hackerman`: Send a fancy hackerman's gif.
 
 ## Contributing
